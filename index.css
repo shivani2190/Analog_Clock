@@ -9,6 +9,7 @@
     /* no repeat is for no repeatation of image  */
     background: url(clock.png) no-repeat;
     background-size: 100%;
+    background-color: #183D3D;
 }
 #hour, #minute, #second{
     position: absolute;
@@ -39,4 +40,7 @@
     left: 49.25%;
     opacity: 0.8;
     transform-origin: bottom;
+}
+body{
+    background-color: #5C8374;
 }
